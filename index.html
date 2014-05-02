@@ -9,18 +9,22 @@
 
     <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-    <link href="lightbox/css/lightbox.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
 
     <script src="js/modernizr.js"></script>
     <script src="js/respond.min.js"></script>
 
-    <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+    <link rel="stylesheet" href="colorbox.css" />
+    <script src="../jquery.colorbox.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="application.js"></script>
+
+    <!-- include external jQuery file but fall back to local file if extern one fails to load !-->
     <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/1.7.2.jquery.min"><\/script>')</script>
 
 
-    <script src="lightbox/js/lightbox.js"></script>
     <script src="js/prefixfree.min.js"></script>
     <script src="js/jquery.slides.min.js"></script>
 
@@ -47,25 +51,17 @@
     </h2>
     <article class="img-item">
         <figure>
-            <a href="http://www.rebeccalewisdesign.com">
-                <span class="thumb-screen">
-                    <div id="hover">
-                            <div class="info">
-                                <p class="project">Resource Magazine</p>
-                                    <hr>    
-                                    <p class="dates">Editorial</p>
-                                </div>
-                                </div>
-                            </span>
+            <a class"project" href="resource.html">
+                <span class="thumb-screen"></span>
                 <img src="img/Res-thumb.jpg" alt="Some alt text"/>
             </a>
-             <!-- <figcaption>
+          <figcaption>
                 <strong>
-                Photo by: Some Name
+                <a href="http://www.rebeccalewisdesign.com"> Resource Magazine</a>
                 </strong>
-                Als es die ersten Hügel des Kursivgebirges erklommen hatte
-            </figcaption>-->
-        </figure>
+                Editorial Design
+                </figcaption>
+            </figure>
     </article>
 
     <article class="img-item">
@@ -82,12 +78,12 @@
                 </span>
                 <img src="img/GS-Shop-thumb.jpg" alt="Some alt text"/>
             </a>
-           <!-- <figcaption>
+          <figcaption>
                 <strong>
                 Photo by: Some Name
                 </strong>
                 warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen
-                </figcaption>-->
+                </figcaption>
             </figure>
     </article>
     
@@ -105,12 +101,12 @@
                 </span>
                 <img src="img/Sesame-Thumb.jpg" alt="Some alt text"/>
             </a>
-             <!-- <figcaption>
+            <figcaption>
                 <strong>
                 Photo by: Some Name
                 </strong>
                 die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
-            </figcaption>-->
+            </figcaption>
             </figure>
     </article>
 
@@ -128,12 +124,12 @@
                 </span>
                 <img src="img/SK-thumb.png" alt="Some alt text"/>
             </a>
-             <!-- <figcaption>
+             <figcaption>
                 <strong>
                 Photo by: Some Name
                 </strong>
                 die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
-            </figcaption>-->
+            </figcaption>
             </figure>
     </article>
         <article class="img-item">
@@ -150,12 +146,12 @@
                 </span>
                 <img src="img/GS-destinations-thumb.png" alt="Some alt text"/>
             </a>
-             <!-- <figcaption>
+                <figcaption>
                 <strong>
                 Photo by: Some Name
                 </strong>
                 die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
-            </figcaption>-->
+            </figcaption>
             </figure>
     </article>
         <article class="img-item">
@@ -172,12 +168,12 @@
                 </span>
                 <img src="img/China-Grill-Thumb.png" alt="Some alt text"/>
             </a>
-             <!-- <figcaption>
+             <figcaption>
                 <strong>
                 Photo by: Some Name
                 </strong>
                 die Headline von Alphabetdorf und die Subline seiner eigenen Straße.
-            </figcaption>-->
+            </figcaption>
             </figure>
     </article>
     <br class="clear"/>
