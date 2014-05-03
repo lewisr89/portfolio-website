@@ -67,7 +67,7 @@ padding:3px 15px;
 
 nav ul li a
 {
-font-family: 'Open Sans', sans-serif;
+font-family: "Open Sans", sans-serif;
 text-transform: uppercase;
 transition: all .25s ease;
 }
@@ -81,7 +81,7 @@ color: #E56038;}
 #three_columns, #text_columns
 {
 line-height:25px;
-font-family: 'Open Sans', sans-serif;
+font-family: "Open Sans", sans-serif;
 width:auto;
 max-width:900px;
 margin:0 auto;}
@@ -188,7 +188,7 @@ width:100%;}
 
 #copyright .wrapper
 {
-font-family: 'Open Sans', sans-serif;
+font-family: "Open Sans", sans-serif;
 padding-top:25px;
 color: #5e5e5e;
 font-size:14px;
