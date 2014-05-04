@@ -3,7 +3,7 @@ body
 {
 border-top: 5px solid #e56038;
 background: white;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
 color: #333333;
 }
 
@@ -25,7 +25,7 @@ font-weight: bold;}
 figcaption
 {
 line-height: 27px;
-font-size:14px;
+font-size:16px;
 width:415px;
 padding:5px;}
 
@@ -42,13 +42,14 @@ display:block;}
 header{
 position:relative;
 width:auto;
-max-width:900px;
-margin: 0 auto 20px auto;
+max-width:1100px;
+margin: 0 auto 50px auto;
 }
 
 
 #logo{
-margin: 35px 0 0 0;
+margin: 35px 0 0px 0;
+border-bottom: 1px solid #D6D0C1;
 }
 
 nav ul{
@@ -67,9 +68,11 @@ padding:3px 15px;
 
 nav ul li a
 {
-font-family: "Open Sans", sans-serif;
+font-family: 'Lato', sans-serif;
 text-transform: uppercase;
 transition: all .25s ease;
+font-size: 20px;
+font-weight: 400;
 }
 
 
@@ -78,31 +81,50 @@ color: #E56038;}
 
 /* Body Styles */
 
+h1
+{
+font-size:24px;
+line-height:38px;
+padding: 20px;
+margin-bottom: 30px;
+color:gray;
+font-weight: 300;
+max-width:1200px;
+padding-right: 30px;
+margin-top: 80px;
+}
+
+h1 a{
+font-weight: 500;
+text-decoration: underline;
+}
+
+.container
+{
+width:auto;
+margin: 0 auto;
+position:relative;}
+
 #three_columns, #text_columns
 {
 line-height:25px;
-font-family: "Open Sans", sans-serif;
+font-family: 'Lato', sans-serif;
 width:auto;
-max-width:900px;
-margin:0 auto;}
-
-#three_columns h2, #text_columns h3
-{
-font-size:20px;
-border-bottom: 1px solid #D6D0C1;
-padding: 10px 0;
-margin-bottom: 20px;
+max-width:1100px;
+margin-left:auto;
+margin-right: auto;
+font-weight: 300;
 }
 
 #three_columns .img-item
 {
 float:left;
-margin-right:25px;
+margin-right:15px;
 margin-bottom: 20px;
 }
 
 #three_columns .img-item img{
-	width:425px;
+	width:520px;
 }
 #three_columns .img-item a
 {
@@ -129,8 +151,15 @@ color:white;
 }
 
 .project{
-	text-align: center;
-	padding-top:40px;
+	text-align: left;
+	padding:40px 40px 0 40px;
+	font-size:25px;
+	font-weight: 500px;
+}
+
+.genre{
+	font-size:20px;
+	font-weight: 300px;
 }
 
 hr{
@@ -172,7 +201,7 @@ margin-top:-20px;
 
 footer .wrapper ul li a
 {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
 text-transform: uppercase;
 transition: all .25s ease;
 }
@@ -188,7 +217,7 @@ width:100%;}
 
 #copyright .wrapper
 {
-font-family: "Open Sans", sans-serif;
+font-family: 'Lato', sans-serif;
 padding-top:25px;
 color: #5e5e5e;
 font-size:14px;
@@ -264,9 +293,6 @@ padding-bottom: 20px;
 
 @media (max-width: 765px)
 {
-.container
-{
-top: -1500px;}
 
 header
 {
