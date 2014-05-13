@@ -1,5 +1,12 @@
-$(document).ready(function () {
 
-$('a.project').colorbox();
+$(document).ready(function() {
+        $('.projectimage').bind("mouseover", function(){
+            var color  = $(this).css("background-color");
 
-});
+            $(this).css("background", "#380606");
+
+            $(this).bind("mouseout", function(){
+                $(this).css("background", color);
+            })    
+        })    
+    })

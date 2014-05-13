@@ -136,7 +136,7 @@ max-width:480px;
 }
 
 .rightColumn img{
-	width:650px;
+	max-width:650px;
 	margin-bottom:30px;
 }
 

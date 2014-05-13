@@ -43,13 +43,13 @@ header{
 position:relative;
 width:auto;
 max-width:1100px;
-margin: 0 auto 50px auto;
+margin: 0 auto 0px auto;
 }
 
 
 #logo{
 margin: 35px 0 0px 0;
-border-bottom: 1px solid #D6D0C1;
+width:90px;
 }
 
 nav ul{
@@ -83,15 +83,16 @@ color: #E56038;}
 
 h1
 {
+border-top: 1px solid #D6D0C1;
 font-size:24px;
-line-height:38px;
+line-height:40px;
 padding: 20px;
 margin-bottom: 30px;
 color:gray;
 font-weight: 300;
 max-width:1200px;
 padding-right: 30px;
-margin-top: 80px;
+margin-top: 50px;
 }
 
 h1 a{
@@ -165,6 +166,12 @@ width: 70%;
 }
 .dates{
 	text-align: center;
+}
+
+.projectimage:hover{
+	color: black;
+	opacity: 1;
+
 }
 
 
