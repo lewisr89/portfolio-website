@@ -294,12 +294,16 @@ padding-bottom: 20px;
 
 }
 
-@media (max-width: 765px)
-{
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
 
 header {
 height:350px;
 }
+
 
 #three_columns .img-item a
 {
@@ -307,12 +311,16 @@ position:relative;
 display:block;
 top:50px;}
 
-header nav
+#three_columns .img-item img{
+	max-width:200px;
+}
+
+nav ul
 {
 right: auto;
 bottom: auto;
 left: 50%;
-top:0px;
+top:100px;
 margin-left: -184px;
 float:right;
 padding:20px;
