@@ -306,7 +306,7 @@ height:350px;
 h1
 {
 font-size:16px;
-line-height: 20px;
+line-height: 22px;
 }
 
 #logo img{
@@ -328,6 +328,10 @@ float: left;}
 	max-width:200px;
 }
 
+#three_columns .img-item{
+	margin-right: auto;
+	margin-left: auto;
+}
 nav ul
 {
 right: auto;
