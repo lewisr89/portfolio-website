@@ -306,15 +306,26 @@ h1
 {
 font-size:16px;
 line-height: 22px;
+border-top: 1px solid #D6D0C1;
+font-size: 16px;
+line-height: 40px;
+padding: 20px;
+margin-bottom: 30px;
+color: gray;
+font-weight: 300;
+max-width: 1200px;
+margin-top: 20px;
+text-align: center;
 }
 
 #logo img{
 width:100px;
+padding-left: 10px;
+padding-bottom: 10px;
 }
     
 nav ul li a{
 font-size:10px;
-top: 40px;
 float: left;}
 
 #three_columns .img-item a img{
@@ -340,11 +351,9 @@ float: left;}
 }
 nav ul
 {
-right:auto;
-bottom:auto;
+margin-top:-30px;
+padding-top: 20px;
 float:left;
-top:100px;
-padding:20px;
 }
 
 footer
