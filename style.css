@@ -321,6 +321,13 @@ float: left;}
         width:200px;
     }
 
+#three_columns .img-item {
+        width:320px;
+    }
+
+#three_columns .img-item a {
+     text-align: center;
+    }
 
 
 #three_columns .img-item img{
@@ -335,7 +342,7 @@ nav ul
 {
 right:auto;
 bottom:auto;
-left:50%;
+float:left;
 top:100px;
 padding:20px;
 }
