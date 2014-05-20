@@ -270,7 +270,6 @@ clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
 clip: rect(1px, 1px, 1px, 1px);}
 
 /* mobile */
-
 @media (max-width: 915px)
 {
 
@@ -334,12 +333,10 @@ float: left;}
 }
 nav ul
 {
-right: auto;
-bottom: auto;
-left: 50%;
+right:auto;
+bottom:auto;
+left:50%;
 top:100px;
-margin-left: -184px;
-float:right;
 padding:20px;
 }
 
