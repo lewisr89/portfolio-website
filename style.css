@@ -340,10 +340,11 @@ float: left;}
 
 #three_columns .img-item {
         width:320px;
+        text-align: center;
     }
 
 #three_columns .img-item a {
-     text-align: center;
+     
     }
 
 
