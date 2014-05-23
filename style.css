@@ -324,6 +324,13 @@ font-size:14px;
 width:320px;
 padding:5px;}
 
+figcaption strong
+{
+width:320px;
+padding-bottom:2px;
+margin: 0px 0;
+display:block;}
+
 #logo img{
 width:100px;
 padding-left: 10px;
@@ -341,13 +348,6 @@ float: left;}
 #three_columns .img-item {
         width:320px;
         text-align: center;
-    }
-
-#three_columns .img-item a {
-     
-    }
-#three_columns .img-item .projectlinks{
-        margin-left: 55px;
     }
 
 #three_columns .img-item img{
