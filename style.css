@@ -329,7 +329,8 @@ figcaption strong
 width:320px;
 padding-bottom:2px;
 margin: 0px 0;
-display:block;}
+display:block;
+border-bottom: none;}
 
 #logo img{
 width:100px;
