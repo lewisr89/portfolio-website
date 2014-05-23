@@ -346,7 +346,9 @@ float: left;}
 #three_columns .img-item a {
      
     }
-
+#three_columns .img-item .projectlinks{
+        margin-left: 55px;
+    }
 
 #three_columns .img-item img{
 	max-width:200px;
