@@ -387,3 +387,22 @@ footer .wrapper .social
 {
 display:none;}
 }
+
+#copyright .wrapper
+{
+font-size:11px;
+}
+
+
+#copyright .wrapper .social
+{
+position:absolute;
+right:0;
+top:25px;}
+
+#copyright .wrapper .social a
+{
+transition: opacity .25s ease;
+opacity: 0.3;
+display:block;
+text-align: center;}
