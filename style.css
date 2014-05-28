@@ -181,7 +181,6 @@ position:relative;
 clear:both;
 width:auto;
 height:150px;
-background:#333333;
 margin: 0;}
 
 footer .wrapper{
@@ -190,7 +189,7 @@ margin: 0 auto;
 padding-top:30px;
 width:auto;
 max-width:900px;
-font-size:14px;
+font-size:18px;
 color:white;
 text-align: center}
 
@@ -406,3 +405,5 @@ transition: opacity .25s ease;
 opacity: 0.3;
 display:block;
 text-align: center;}
+
+}
