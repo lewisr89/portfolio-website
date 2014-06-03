@@ -226,7 +226,7 @@ width:100%;}
 font-family: 'Lato', sans-serif;
 padding-top:25px;
 color: #5e5e5e;
-font-size:14px;
+font-size:14px !important;
 position:relative;}
 
 
